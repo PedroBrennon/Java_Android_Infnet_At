@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">At Desenvolvimento Android</string>
+    <string name="digite_o_nome">Digite o nome</string>
+    <string name="digite_o_cpf_somente_n_meros">Digite o CPF (somente números)</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="digite_a_senha">Digite a senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="digite_o_email">Digite o email</string>
+    <string name="logout">Logout</string>
+    <string name="logo_do_aplicativo">Logo do aplicativo</string>
+    <string name="email">Email</string>
+    <string name="registre_se">Registre-se</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
+    <string name="teste">teste</string>
+    <string name="facebook_app_id">498971853903926</string>
+    <string name="fb_login_protocol_scheme">fb498971853903926</string>
+</resources>

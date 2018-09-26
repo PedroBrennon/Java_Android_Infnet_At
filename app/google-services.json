@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "85848893933",
+    "firebase_url": "https://tp3-java-android-3e796.firebaseio.com",
+    "project_id": "tp3-java-android-3e796",
+    "storage_bucket": "tp3-java-android-3e796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85848893933:android:73d034b673c6324a",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.paiva.pedro.tp3_djava_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85848893933-b6ckdrvgfqee9mhg6c47o3hnr7nf0a0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.infnet.paiva.pedro.tp3_djava_android",
+            "certificate_hash": "320359b88d3924e71837b63aa4311e8622aa3dcb"
+          }
+        },
+        {
+          "client_id": "85848893933-45u67nbt8n9qp10svdt88kcajf5cvh75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23e9BmCQsB0qNkaJ4-6DYQxnmJzPorog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85848893933-45u67nbt8n9qp10svdt88kcajf5cvh75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85848893933:android:a1adfdc9ee01ab86",
+        "android_client_info": {
+          "package_name": "paiva.pedro.at_desenvolvimento_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85848893933-7ls6kctoml31d0vdmve3kus86mob7u2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "paiva.pedro.at_desenvolvimento_android",
+            "certificate_hash": "320359b88d3924e71837b63aa4311e8622aa3dcb"
+          }
+        },
+        {
+          "client_id": "85848893933-45u67nbt8n9qp10svdt88kcajf5cvh75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23e9BmCQsB0qNkaJ4-6DYQxnmJzPorog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85848893933-45u67nbt8n9qp10svdt88kcajf5cvh75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

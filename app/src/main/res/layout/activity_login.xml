@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimens16"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="@dimen/dimens100"
+        android:layout_height="@dimen/dimens100"
+        android:contentDescription="@string/logo_do_aplicativo"
+        android:layout_marginBottom="@dimen/dimens16"
+        android:src="@drawable/logo_infnet_at"/>
+    
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimens5"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimens16"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="textPassword"
+        android:hint="@string/senha"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimens16"
+        android:background="@drawable/bg_button_rounded"
+        android:textColor="@color/colorWhite"
+        android:text="@string/login"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:text="@string/registre_se"/>
+
+</LinearLayout>

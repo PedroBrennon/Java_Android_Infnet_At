@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/dimens16"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="@dimen/dimens100"
+        android:layout_height="@dimen/dimens100"
+        android:layout_marginBottom="@dimen/dimens16"
+        android:contentDescription="@string/logo_do_aplicativo"
+        android:src="@drawable/logo_infnet_at"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:paddingLeft="@dimen/dimens16"
+        android:paddingStart="@dimen/dimens16"
+        tools:ignore="RtlSymmetry"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="text"
+        android:hint="@string/digite_o_nome"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:paddingLeft="@dimen/dimens16"
+        android:paddingStart="@dimen/dimens16"
+        tools:ignore="RtlSymmetry"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="textEmailAddress"
+        android:hint="@string/digite_o_email"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:paddingLeft="@dimen/dimens16"
+        android:paddingStart="@dimen/dimens16"
+        tools:ignore="RtlSymmetry"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="textPassword"
+        android:hint="@string/digite_a_senha"/>
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:paddingLeft="@dimen/dimens16"
+        android:paddingStart="@dimen/dimens16"
+        tools:ignore="RtlSymmetry"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:inputType="textPassword"
+        android:hint="@string/confirme_a_senha"/>
+
+    <EditText
+        android:id="@+id/edtCpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:paddingLeft="@dimen/dimens16"
+        android:paddingStart="@dimen/dimens16"
+        tools:ignore="RtlSymmetry"
+        android:inputType="number"
+        android:digits="1234567890"
+        android:maxLength="14"
+        android:background="@drawable/bg_edit_text_rounded"
+        android:hint="@string/digite_o_cpf_somente_n_meros" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens16"
+        android:padding="@dimen/dimens16"
+        android:background="@drawable/bg_button_rounded"
+        android:textColor="@color/colorWhite"
+        android:text="@string/cadastrar"/>
+
+</LinearLayout>
